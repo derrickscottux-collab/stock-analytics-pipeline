@@ -2,7 +2,7 @@
 
 A fully automated analytics pipeline that transforms raw market data into interactive financial insights. Built in Python using yfinance, Pandas, and Plotly.
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Pandas](https://img.shields.io/badge/Pandas-2.0+-green) ![Plotly](https://img.shields.io/badge/Plotly-5.0+-purple) ![License](https://img.shields.io/badge/License-MIT-yellow)
+![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Pandas](https://img.shields.io/badge/Pandas-2.0+-green) ![Plotly](https://img.shields.io/badge/Plotly-5.0+-purple)
 
 **[Portfolio](https://derrickscottux-collab.github.io/) · [LinkedIn](https://www.linkedin.com/in/derrick-scott-980109236/)**
 
