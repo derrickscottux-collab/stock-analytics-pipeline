@@ -1,0 +1,5 @@
+Ticker,Company,Start Price ($),Current Price ($),Total Return (%),CAGR (%),Ann. Volatility (%),Sharpe Ratio,Max Drawdown (%),Avg Daily Volume
+TSLA,Tesla,20.67,408.95,1878.0,49.6,63.2,0.92,-73.6,"119,633,460"
+GME,GameStop,3.16,22.26,604.4,30.1,134.6,0.76,-88.5,"20,728,565"
+AAPL,Apple,37.47,301.54,704.8,32.5,30.7,1.01,-33.4,"86,128,157"
+MSFT,Microsoft,94.19,411.74,337.1,22.0,28.7,0.77,-37.1,"27,643,273"

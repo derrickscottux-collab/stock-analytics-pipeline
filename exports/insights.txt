@@ -1,0 +1,12 @@
+PERFORMANCE: Tesla (TSLA) delivered the highest total return at +1878.0%, while Microsoft (MSFT) was the weakest at +337.1%.
+
+RISK: GameStop (GME) had the highest annualized volatility at 134.6%, making it the riskiest holding in the group.
+
+RISK-ADJUSTED RETURN: Apple (AAPL) showed the best risk-adjusted performance with a Sharpe Ratio of 1.01.
+
+DRAWDOWN: GameStop (GME) experienced the steepest peak-to-trough decline of -88.5%, highlighting significant downside risk at certain points.
+
+CORRELATION: Apple and Microsoft had the highest correlation (0.67), suggesting they respond similarly to market-wide events.
+
+EVENT: GameStop surged 1,745% in January 2021 during the Reddit-driven short squeeze, briefly reaching $86.88 before collapsing.
+
