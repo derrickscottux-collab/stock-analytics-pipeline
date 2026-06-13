@@ -68,10 +68,18 @@ Each stage has a clear input and output. Nothing downstream runs without the sta
 
 ---
 
+## Business Questions Answered
+
+- Which stocks generated the strongest returns over the analysis period?
+- How did risk-adjusted performance compare across assets?
+- Which investments demonstrated the most consistent growth?
+- How would a diversified portfolio have performed versus individual holdings?
+- What insights can investors use to support future decisions?
+
 ## Key Findings
 
 - **Tesla** delivered the highest total return at +1,878%, roughly 10x the S&P 500 over the same period
-- **GameStop** peaked at 2,749x its starting value during the January 2021 short squeeze — a +1,625% monthly return — then gave most of it back
+- **GameStop** peaked at 2,749x its starting value during the January 2021 short squeeze, generating a +1,625% monthly return before giving back most of those gains.
 - **Apple** had the best risk-adjusted performance with a Sharpe Ratio of 1.01, outperforming Tesla on a return-per-unit-of-risk basis
 - **GameStop's** correlation with every other stock in the group was essentially noise (0.12–0.17), driven by retail sentiment rather than market-wide factors
 - **2022** is the clearest macro signal in the data — January through June was broadly red across all four stocks as the Fed began its most aggressive rate hiking cycle in decades
