@@ -4,7 +4,7 @@ A fully automated analytics pipeline that transforms raw market data into intera
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Pandas](https://img.shields.io/badge/Pandas-2.0+-green) ![Plotly](https://img.shields.io/badge/Plotly-5.0+-purple)
 
-**[Portfolio](https://derrickscottux-collab.github.io/) · [LinkedIn](https://www.linkedin.com/in/derrick-scott-980109236/)**
+**[Portfolio](https://derrickscottux-collab.github.io/) · [LinkedIn](https://www.linkedin.com/in/derrick-scott-980109236/) · [Presentation](presentation/Stock_Analytics_Pipeline.pdf)**
 
 ---
 
@@ -14,13 +14,47 @@ This project started as an IBM Data Analytics guided notebook covering basic sto
 
 The key design principle: **nothing is hardcoded**. Change the tickers or date range in the config and every chart, metric, and insight regenerates automatically from scratch.
 
+The intended audience for this analysis includes hiring managers, technical leaders, and anyone evaluating data analytics or financial reporting skill sets. Findings are structured to demonstrate an end-to-end analytics workflow, from raw data extraction through to stakeholder-ready visualizations.
+
+---
+
+## Business Question
+
+**How have major tech and consumer stocks performed against the broader market, and what does that performance reveal about risk and opportunity?**
+
+This project examines performance, risk, and benchmark comparison across:
+
+- Individual stock returns and volatility
+- Risk-adjusted performance (Sharpe Ratio, Max Drawdown)
+- Correlation between holdings
+- Performance relative to the S&P 500
+
+---
+
+## Why This Matters
+
+Understanding risk-adjusted return and benchmark comparison is core to investment decision-making.
+
+This analysis helps stakeholders:
+
+- Identify which holdings generated the strongest returns and at what risk
+- Understand diversification benefits across uncorrelated assets
+- Spot periods of macro-driven, market-wide risk
+- Compare individual stock performance against a market benchmark
+- Support data-driven portfolio and investment decisions
+
 ---
 
 ## Pipeline Architecture
 
-```
-Configuration → Data Extraction → Validation & Structuring → Quantitative Analysis
-     → Visualization → Insight Generation → Export & Reporting
+![Pipeline Diagram](images/pipeline-diagram.png)
+
+```text
+Configuration → Data Extraction → Validation & Structuring
+     → Quantitative Analysis
+     → Visualization
+     → Insight Generation
+     → Export & Reporting
 ```
 
 Each stage has a clear input and output. Nothing downstream runs without the stage before it completing cleanly.
@@ -79,7 +113,7 @@ Each stage has a clear input and output. Nothing downstream runs without the sta
 ## Key Findings
 
 - **Tesla** delivered the highest total return at +1,878%, roughly 10x the S&P 500 over the same period
-- **GameStop** peaked at 2,749x its starting value during the January 2021 short squeeze, generating a +1,625% monthly return before giving back most of those gains.
+- **GameStop** peaked at 2,749x its starting value during the January 2021 short squeeze, generating a +1,625% monthly return before giving back most of those gains
 - **Apple** had the best risk-adjusted performance with a Sharpe Ratio of 1.01, outperforming Tesla on a return-per-unit-of-risk basis
 - **GameStop's** correlation with every other stock in the group was essentially noise (0.12–0.17), driven by retail sentiment rather than market-wide factors
 - **2022** is the clearest macro signal in the data — January through June was broadly red across all four stocks as the Fed began its most aggressive rate hiking cycle in decades
@@ -88,7 +122,7 @@ Each stage has a clear input and output. Nothing downstream runs without the sta
 
 ## Project Structure
 
-```
+```text
 stock-analytics-pipeline/
 │
 ├── Stock_Analysis_Dashboard_Portfolio.ipynb   # Main notebook
@@ -111,12 +145,51 @@ stock-analytics-pipeline/
 │   ├── TSLA_revenue_data.csv
 │   └── GME_revenue_data.csv
 │
+├── images/                                    # Pipeline diagram
+│   └── pipeline-diagram.png
+│
+├── presentation/
+│   └── Stock_Analytics_Pipeline.pdf
+│
 ├── data/                                      # Cached price data (git-ignored)
 │
 ├── requirements.txt
 ├── .gitignore
 └── README.md
 ```
+
+---
+
+## Data Collection Methods
+
+| Method | Purpose | Output |
+|----------|----------|----------|
+| yfinance API | Pull OHLCV price and volume history for each ticker | Cached price datasets |
+| Web Scraping | Collect quarterly revenue data for Tesla and GameStop | Revenue comparison datasets |
+
+---
+
+## Technologies Used
+
+### Data Analysis
+
+- Python
+- Pandas
+- NumPy
+- SciPy
+
+### Data Collection
+
+- yfinance
+- Requests
+- BeautifulSoup
+
+### Visualization & Reporting
+
+- Plotly
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
 ---
 
@@ -162,6 +235,18 @@ Everything downstream updates automatically.
 
 ---
 
+## Project Deliverables
+
+- End-to-end analysis notebook
+- Modular financial metrics engine
+- Nine interactive Plotly visualizations
+- Benchmark comparison against the S&P 500
+- Automated insight generation
+- Full CSV and HTML export pipeline
+- Executive-style presentation walking through the pipeline and key findings
+
+---
+
 ## Dependencies
 
 ```
@@ -195,7 +280,10 @@ Expanded from the IBM Data Analytics Professional Certificate capstone notebook.
 ## Author
 
 **Derrick Scott**
-[Portfolio](https://derrickscottux-collab.github.io/) · [LinkedIn](https://www.linkedin.com/in/derrick-scott-980109236/) · [GitHub](https://github.com/derrickscottux-collab)
+
+[Portfolio](https://derrickscottux-collab.github.io/)
+| [LinkedIn](https://www.linkedin.com/in/derrick-scott-980109236/)
+| [GitHub](https://github.com/derrickscottux-collab)
 
 ---
 
