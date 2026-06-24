@@ -281,9 +281,9 @@ Expanded from the IBM Data Analytics Professional Certificate capstone notebook.
 
 **Derrick Scott**
 
-[Portfolio](https://derrickscottux-collab.github.io/)
+[Portfolio](https://derrick-scott.github.io/)
 | [LinkedIn](https://www.linkedin.com/in/derrick-scott-980109236/)
-| [GitHub](https://github.com/derrickscottux-collab)
+| [GitHub](https://github.com/derrick-scott)
 
 ---
 
