@@ -4,7 +4,7 @@ A fully automated analytics pipeline that transforms raw market data into intera
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Pandas](https://img.shields.io/badge/Pandas-2.0+-green) ![Plotly](https://img.shields.io/badge/Plotly-5.0+-purple)
 
-**[Portfolio](https://derrickscottux-collab.github.io/) · [LinkedIn](https://www.linkedin.com/in/derrick-scott-980109236/) · [Presentation](presentation/Stock_Analytics_Pipeline.pdf)**
+**[Portfolio](https://derrick-scott.github.io/) · [LinkedIn](https://www.linkedin.com/in/derrick-scott-980109236/) · [Presentation](presentation/Stock_Analytics_Pipeline.pdf)**
 
 ---
 
